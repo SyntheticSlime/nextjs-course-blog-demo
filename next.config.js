@@ -5,7 +5,7 @@ module.exports = (phase) => {
   env: {
     //mongodb+srv://sbandes:RicosRoughNecks1!@cluster0.nqyrx.mongodb.net/my-site?retryWrites=true&w=majority
     mongodb_username: "sbandes",
-    mongodb_password: "RicosRoughNecks1!",
+    mongodb_password: "RicosRoughNecks1!", //keeping this here could be a security issue. webhost providers all allow you to let them set environmental variables, so you should usually do that instead.
     mongodb_clustername: "cluster0",
     mongodb_database: "my-dev-site",
   },
